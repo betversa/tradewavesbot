@@ -1,0 +1,11 @@
+{
+  "name": "your-bot-name",
+  "version": "1.0.0",
+  "main": "main.py",
+  "scripts": {
+    "start": "node main.py"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0" // or any other dependencies your bot needs
+  }
+}
