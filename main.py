@@ -18,7 +18,9 @@ def home():
 
 # Function to run Flask app
 def run_flask():
-    app.run(host='0.0.0.0', port=8080)
+    port = int(os.environ.get("PORT", 8080))  # Use Heroku's PORT or default to 8080
+    app.run(host='0.0.0.0', port=port)
+
 
 # Function to start Flask in a new thread
 def keep_alive():
