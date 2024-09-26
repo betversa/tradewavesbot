@@ -1,0 +1,2 @@
+discord.py==2.0.0  # (or the version you're using)
+Flask==2.0.3
